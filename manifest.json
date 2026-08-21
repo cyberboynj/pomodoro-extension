@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Pomodoro Extension",
+  "version": "1.0.0",
+  "description": "A little time, well spent.",
+  "action": {
+    "default_title": "Open Pomodoro",
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["alarms", "notifications", "storage"],
+  "icons": {
+    "16": "favicon.svg",
+    "32": "favicon.svg",
+    "48": "favicon.svg",
+    "128": "favicon.svg"
+  }
+}
